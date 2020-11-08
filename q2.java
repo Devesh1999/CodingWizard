@@ -13,7 +13,7 @@ public class q2 {
         int d=0;
         int i=0;
 
-        while(i<=2) {
+        do {
 			System.out.println("Enter User's Choice: ");
 			char b= s.next().charAt(0);
 			if(b!='R' && b!='P'&& b!='S') {
@@ -70,10 +70,11 @@ public class q2 {
                         d+=1;
                     }
                     break;
-                
+                }
+                i++;
             }
-            i++;
-        } 
+            
+        } while(i<=2);
 		if(d == c)
 		{
 			System.out.println("3 Rounds over, User Scored "+d+",Game Tie");
@@ -82,7 +83,8 @@ public class q2 {
 		System.out.println("3 Rounds over, User Scored "+d+",User won the game");
 		else 
 			System.out.println("3 Rounds over, User Scored "+d+",Computer won the game");
-      }
-
+      
     }
+
+    
 }
