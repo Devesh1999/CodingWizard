@@ -12,7 +12,7 @@ public class q1 {
         String s1 =s.next();
 		char a='0';
 		String s2 =" ";
-		int i=s1.length()-1;
+		int i=0;
         do 
 		{
             if(s1.charAt(i)!='G'&&s1.charAt(i)!='C'&&s1.charAt(i)!='T'&&s1.charAt(i)!='A')
@@ -28,7 +28,7 @@ public class q1 {
 					a = 'U';
                 s2= s2+a;
         i++;
-        }while(i==0);
+        }while(i<=s.length()-1);
 		System.out.print("Output:-"+s2);
     }
     
