@@ -28,9 +28,11 @@ public class q1 {
 					a = 'U';
                 s2= s2+a;
         i++;
-        }while(i<=s.length()-1);
+        }while(i<=s1.length()-1);
 		System.out.print("Output:-"+s2);
     }
     
     
 }
+
+
