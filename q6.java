@@ -2,7 +2,7 @@ public class q6 {
     public static void main(String[] args) {
         int prime=1;
 		int n=1;
-		while(prime<6)
+		while(prime<10001)
 		{
 			n+=2;
 			if(isprime(n))
